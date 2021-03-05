@@ -20,4 +20,4 @@ deploy:
   token: $GITHUB_TOKEN
   edge: true
   on:
-    branch: master
+    branch: main
