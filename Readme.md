@@ -1,1 +1,1 @@
-Pelican web
+Pelican web page
