@@ -25,13 +25,26 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
+'''
+MinimalXY Theme--------------------------------------------------------------------------------------------------------
+'''
+THEME = 'minimal_xy_theme'
+# AUTHOR_INTRO = u'Hello world! I’m Pablo Benavides'
+# AUTHOR_DESCRIPTION = u'Hello world! I’m John Doe. I use Python to make a more fluid traffic world'
+# AUTHOR_AVATAR = 'images/logo_transparente.png'
+# AUTHOR_WEB = 'https://pyblobenavides.github.io/pablobenavides.site/pages/portfolio.html'
 
-THEME = 'theme'
+# SOCIAL = (('github', 'https://github.com/PybloBenavides'),
+#           ('linkedin','https://www.linkedin.com/in/pablo-benavides-0a5352116/'))
+
+'''
+MinimalXY Theme--------------------------------------------------------------------------------------------------------
+'''
