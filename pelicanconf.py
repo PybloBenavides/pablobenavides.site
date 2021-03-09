@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+MARKUP = ("md", "ipynb")
+
+from pelican_jupyter import markup as nb_markup
+
 
 AUTHOR = 'Pablo Benavides'
 SITENAME = 'Pablo Benavides'
@@ -32,6 +36,27 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+'''
+jupyter - pelican
+'''
+
+
+PLUGINS = [nb_markup]
+
+IGNORE_FILES = [".ipynb_checkpoints"]
+# IPYNB_SKIP_CSS=True
+IPYNB_FIX_CSS = True
+IPYNB_SKIP_CSS = False
+
+IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output')), ('h2', ('id', 'Header-2'))]
+IPYNB_GENERATE_SUMMARY = True
+
+IPYNB_EXPORT_TEMPLATE = r"jupyter-pelican\templates\basic_jupyter.html"
+
+'''
+jupyter - pelican
+'''
 
 '''
 MinimalXY Theme--------------------------------------------------------------------------------------------------------
