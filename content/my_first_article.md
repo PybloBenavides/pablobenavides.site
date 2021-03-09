@@ -8,7 +8,7 @@ Previously I did one with Django but in the end it seems this is too complicated
 
 Let's try to include an image:
 
-![full logo]({filename}/images/logo_full_fondo_blanco.png)
+![full logo]({static}/images/logo_full_fondo_blanco.png)
 
-![charlita]({filename}/images/Mapas_y_mucho_mas.JPG)
+![charlita]({static}/images/Mapas_y_mucho_mas.JPG)
 
