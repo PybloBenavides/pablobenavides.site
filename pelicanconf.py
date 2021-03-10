@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-MARKUP = ("md", "ipynb")
 
+import os
 from pelican_jupyter import markup as nb_markup
 
-
+MARKUP = ("md", "ipynb")
 AUTHOR = 'Pablo Benavides'
 SITENAME = 'Pablo Benavides'
 SITEURL = ''
@@ -51,9 +51,8 @@ IPYNB_SKIP_CSS = False
 
 IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output')), ('h2', ('id', 'Header-2'))]
 IPYNB_GENERATE_SUMMARY = True
-
-IPYNB_EXPORT_TEMPLATE = r"\jupyter-pelican\templates\basic_jupyter.html"
-
+dir_path = os.path.dirname(os.path.realpath(__file__))
+IPYNB_EXPORT_TEMPLATE = os.path.join( dir_path, r"jupyter-pelican\templates\basic_jupyter.html")
 '''
 jupyter - pelican
 '''
