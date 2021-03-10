@@ -38,6 +38,14 @@ DEFAULT_CATEGORY = 'BLOG'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
+STATIC_PATHS = [
+    'extra',  # this
+]
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+}
+
+
 '''
 jupyter - pelican
 '''
