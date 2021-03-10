@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Barcos</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/barcos.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-05T00:00:00+01:00</updated><entry><title>Welcome</title><link href="https://pyblobenavides.github.io/pablobenavides.site/welcome.html" rel="alternate"></link><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-05:/pablobenavides.site/welcome.html</id><content type="html">&lt;!-- headerimage: images/Mapas_y_mucho_mas.JPG --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Barcos</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/barcos.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>My Second article</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-second-article.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/my-second-article.html</id><summary type="html"></summary><content type="html">
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;This is from a notebook&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Hashtaguerino-hacker"&gt;Hashtaguerino hacker&lt;a class="anchor-link" href="#Hashtaguerino-hacker"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</content><category term="Barcos"></category></entry><entry><title>Welcome</title><link href="https://pyblobenavides.github.io/pablobenavides.site/welcome.html" rel="alternate"></link><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-05:/pablobenavides.site/welcome.html</id><content type="html">&lt;!-- headerimage: images/Mapas_y_mucho_mas.JPG --&gt;
 
 &lt;p&gt;This is my first article. I am learning to build this webpage with pelican and Markdown.
 Previously I did one with Django but in the end it seems this is too complicated for my purposes.&lt;/p&gt;
