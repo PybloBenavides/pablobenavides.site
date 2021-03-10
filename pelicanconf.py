@@ -52,7 +52,7 @@ IPYNB_SKIP_CSS = False
 IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output')), ('h2', ('id', 'Header-2'))]
 IPYNB_GENERATE_SUMMARY = True
 
-IPYNB_EXPORT_TEMPLATE = r"jupyter-pelican\templates\basic_jupyter.html"
+IPYNB_EXPORT_TEMPLATE = r"\jupyter-pelican\templates\basic_jupyter.html"
 
 '''
 jupyter - pelican
