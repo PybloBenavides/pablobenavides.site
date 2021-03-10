@@ -40,7 +40,6 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = [
     'extra',  # this
-    'images'
 ]
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
