@@ -54,14 +54,14 @@ jupyter - pelican
 PLUGINS = [nb_markup]
 
 IGNORE_FILES = [".ipynb_checkpoints"]
-IPYNB_SKIP_CSS=True
-# IPYNB_FIX_CSS = True
-# IPYNB_SKIP_CSS = False
+# IPYNB_SKIP_CSS=True
+IPYNB_FIX_CSS = True
+IPYNB_SKIP_CSS = False
 
-# IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output')), ('h2', ('id', 'Header-2'))]
-# IPYNB_GENERATE_SUMMARY = True
+IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output')), ('h2', ('id', 'Header-2'))]
+IPYNB_GENERATE_SUMMARY = True
 # dir_path = os.path.dirname(os.path.realpath(__file__))
-# IPYNB_EXPORT_TEMPLATE = os.path.join( dir_path, r"jupyter-pelican\templates\basic_jupyter.html")
+IPYNB_EXPORT_TEMPLATE =  "minimal_xy_theme/templates/basic_jupyter.html"
 '''
 jupyter - pelican
 '''
