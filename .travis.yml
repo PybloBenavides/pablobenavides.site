@@ -14,7 +14,7 @@ script: pipenv run pelican content -s publishconf.py -t minimal_xy_theme
 deploy:
   provider: pages
   strategy: git
-  repo: PybloBenavides/pablobenavides.site
+  repo: PybloBenavides
   target_branch: online
   local_dir: output
   token: $GITHUB_TOKEN
