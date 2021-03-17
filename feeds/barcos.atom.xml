@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Barcos</title><link href="https://pyblobenavides.github.io/" rel="alternate"></link><link href="https://pyblobenavides.github.io/feeds/barcos.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Family</title><link href="https://pyblobenavides.github.io/family.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/family.html</id><summary type="html"></summary><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Barcos</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/barcos.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Family</title><link href="https://pyblobenavides.github.io/pablobenavides.site/family.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/family.html</id><summary type="html"></summary><content type="html">
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[26]:&lt;/div&gt;
@@ -73,10 +73,10 @@ Gracias a la magia de Python pude empezar a hacer este gráfico familiar&lt;/p&g
 
 
 
-&lt;div id="beca7310-f83e-4d37-9f6d-3d80a54f7193"&gt;&lt;/div&gt;
+&lt;div id="7a27a2f7-5821-409b-b794-ca58fb01ce01"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#beca7310-f83e-4d37-9f6d-3d80a54f7193');
+var element = $('#7a27a2f7-5821-409b-b794-ca58fb01ce01');
 
 (function(root) {
   function now() {
@@ -1211,10 +1211,10 @@ var element = $('#beca7310-f83e-4d37-9f6d-3d80a54f7193');
 
 
 
-&lt;div id="cd56ec47-7b8b-46d3-9f95-1139d0ba46d3"&gt;&lt;/div&gt;
+&lt;div id="d67bda1e-86d4-4baa-97a3-0ccd2c8caad8"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#cd56ec47-7b8b-46d3-9f95-1139d0ba46d3');
+var element = $('#d67bda1e-86d4-4baa-97a3-0ccd2c8caad8');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -1589,7 +1589,7 @@ roTBs2RqAAAAAElFTkSuQmCC'
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Barcos"></category></entry><entry><title>My Second article</title><link href="https://pyblobenavides.github.io/my-second-article.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/my-second-article.html</id><summary type="html"></summary><content type="html">
+</content><category term="Barcos"></category></entry><entry><title>My Second article</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-second-article.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/my-second-article.html</id><summary type="html"></summary><content type="html">
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[1]:&lt;/div&gt;
@@ -1850,10 +1850,10 @@ roTBs2RqAAAAAElFTkSuQmCC'
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Barcos"></category></entry><entry><title>Welcome</title><link href="https://pyblobenavides.github.io/welcome.html" rel="alternate"></link><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-05:/welcome.html</id><content type="html">&lt;!-- headerimage: images/Mapas_y_mucho_mas.JPG --&gt;
+</content><category term="Barcos"></category></entry><entry><title>Welcome</title><link href="https://pyblobenavides.github.io/pablobenavides.site/welcome.html" rel="alternate"></link><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-05:/pablobenavides.site/welcome.html</id><content type="html">&lt;!-- headerimage: images/Mapas_y_mucho_mas.JPG --&gt;
 
 &lt;p&gt;This is my first article. I am learning to build this webpage with pelican and Markdown.
 Previously I did one with Django but in the end it seems this is too complicated for my purposes.&lt;/p&gt;
 &lt;p&gt;Let's try to include an image:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="full logo" src="https://pyblobenavides.github.io/images/logo_full_fondo_blanco.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="charlita" src="https://pyblobenavides.github.io/images/Mapas_y_mucho_mas.JPG"&gt;&lt;/p&gt;</content><category term="Barcos"></category></entry></feed>
+&lt;p&gt;&lt;img alt="full logo" src="https://pyblobenavides.github.io/pablobenavides.site/images/logo_full_fondo_blanco.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="charlita" src="https://pyblobenavides.github.io/pablobenavides.site/images/Mapas_y_mucho_mas.JPG"&gt;&lt;/p&gt;</content><category term="Barcos"></category></entry></feed>
