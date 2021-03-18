@@ -1,4 +1,13 @@
 Title: Portfolio
+
+
+My name is **Pablo Benavides**, I am a Civil Engineer specialized in **Intelligent Transport Systems**.<br>
+I use **Python** to solve transport related problems.<br>
+I speak **Spanish, German and English** with proficency. I can also speak **SQL**.<br>
+I have international experience, having studied in Germany, the USA and Spain and worked for several years in both Spain and Argentina.
+
+Here is my résumé.
+<br><br><br>
 # 2019 - Present:
 <br>
 
@@ -53,6 +62,6 @@ Via Erasmus program I studied Bauingenieurwesen in the [**Bergisches Universitä
 <br>
 
 Four year degree in which I learnt about structures, road design, traffic, materials, etc. 
-I also had the time to improve my english skills, learn german, start playing with portuguese and italian, read books and think.
+I also had the time to improve my english skills, learn german and start playing with portuguese and italian.
 
 ![UGR]({static}/images/portfolio/etsiccpugr.png)
