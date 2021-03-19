@@ -62,6 +62,6 @@ Via Erasmus program I studied Bauingenieurwesen in the [**Bergisches Universitä
 <br>
 
 Four year degree in which I learnt about structures, road design, traffic, materials, etc. 
-I also had the time to improve my english skills, learn german and start playing with portuguese and italian.
+I also had the time to improve my english skills, learn german and start playing with portuguese and italian..
 
 ![UGR]({static}/images/portfolio/etsiccpugr.png)
