@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides</title><link href="http://pablobenavides.site/" rel="alternate"></link><link href="http://pablobenavides.site/feeds/all.atom.xml" rel="self"></link><id>http://pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Desde Moctezuma hasta hoy</title><link href="http://pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pablobenavides.site,2021-03-09:/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/all.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Desde Moctezuma hasta hoy</title><link href="https://pyblobenavides.github.io/pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="e0cf3ea7-db69-4f54-8893-3a220ee15860"&gt;&lt;/div&gt;
+&lt;div id="e6fea1a9-12a6-4355-9c24-1813d48d01f0"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#e0cf3ea7-db69-4f54-8893-3a220ee15860');
+var element = $('#e6fea1a9-12a6-4355-9c24-1813d48d01f0');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#e0cf3ea7-db69-4f54-8893-3a220ee15860');
 
 
 
-&lt;div id="ca018c22-56e0-43a7-bdb2-9d97f6504399"&gt;&lt;/div&gt;
+&lt;div id="2ad9a79e-abed-4848-a7a6-52953c6d4510"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#ca018c22-56e0-43a7-bdb2-9d97f6504399');
+var element = $('#2ad9a79e-abed-4848-a7a6-52953c6d4510');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2643,4 +2643,4 @@ Sin más espero que les guste esta pequeña pieza de historia.&lt;br&gt;&lt;br&g
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category></entry><entry><title>My first Python talk</title><link href="http://pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pablobenavides.site,2021-03-09:/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Yo yo my first talk yo!&lt;/h1&gt;</content><category term="Projects"></category><category term="Python"></category><category term="Sharing"></category><category term="Knowledge"></category></entry></feed>
+</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Yo yo my first talk yo!&lt;/h1&gt;</content><category term="Projects"></category><category term="Python"></category><category term="Sharing"></category><category term="Knowledge"></category></entry></feed>
