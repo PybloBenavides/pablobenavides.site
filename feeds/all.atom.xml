@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="c6594682-c94d-4fde-a408-619cff76ee2c"&gt;&lt;/div&gt;
+&lt;div id="8b72a0a6-1222-473d-94d0-c5037189be89"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#c6594682-c94d-4fde-a408-619cff76ee2c');
+var element = $('#8b72a0a6-1222-473d-94d0-c5037189be89');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#c6594682-c94d-4fde-a408-619cff76ee2c');
 
 
 
-&lt;div id="ff51ca16-7857-4123-93ad-d1bdd5f9ba6b"&gt;&lt;/div&gt;
+&lt;div id="2beb36ca-ac7e-4dc8-9ca2-45884a5e6041"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#ff51ca16-7857-4123-93ad-d1bdd5f9ba6b');
+var element = $('#2beb36ca-ac7e-4dc8-9ca2-45884a5e6041');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2643,7 +2643,7 @@ Sin más espero que les guste esta pequeña pieza de historia.&lt;br&gt;&lt;br&g
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-02-27:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the day I started working with Python I have probably consumed over a thousand tutorials. Normally they are more direct than the docs. If you are lucky enough you will find a tutorial explaining something really close to what you want to achieve. Then you just have to follow the steps, program along the way of the proffessor and then give it the tweaks you need. 
+</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category><category term="Graphs"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-02-27:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the day I started working with Python I have probably consumed over a thousand tutorials. Normally they are more direct than the docs. If you are lucky enough you will find a tutorial explaining something really close to what you want to achieve. Then you just have to follow the steps, program along the way of the proffessor and then give it the tweaks you need. 
 My favorite, and someone I admire a lot is &lt;a href="https://www.youtube.com/watch?v=J1F32aVSYaU"&gt;&lt;strong&gt;sentdex&lt;/strong&gt;&lt;/a&gt;, he manages really complex topics, but has the ability to make them simple.&lt;/p&gt;
 &lt;p&gt;After moving to Argentina I went to my first &lt;a href="https://www.youtube.com/playlist?list=PLtwHCKHTTq_FCICEtCJkUmI0a4K-8N_IT"&gt;&lt;strong&gt;PyCon&lt;/strong&gt;&lt;/a&gt;. I enjoyed it, learned a ton about several libraries and had the time to introduce myself to many of the speakers. At that point I knew I wanted to give a talk and inspire others.
 Programming is something I love but sometimes it lacks a more social dimension. Here I might picture myself on others but programmers, or at least me, are most comfortable when listening to good music on their headphones and uninterrupted. I don't see this coding-shyness in every programmer, but it is true that geek culture is more introverted than, for example, marketing culture. Somewhere I can see the social dimension I miss is this Python Open Source mentality, sharing and making a better community and language. Hopefully soon we can go back to 3D events as I like to call them. &lt;br&gt;&lt;/p&gt;
