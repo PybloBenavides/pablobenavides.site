@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="c2d8060f-6d74-434d-a197-275e28030168"&gt;&lt;/div&gt;
+&lt;div id="c6594682-c94d-4fde-a408-619cff76ee2c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#c2d8060f-6d74-434d-a197-275e28030168');
+var element = $('#c6594682-c94d-4fde-a408-619cff76ee2c');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#c2d8060f-6d74-434d-a197-275e28030168');
 
 
 
-&lt;div id="d314707e-cdca-4421-9fb0-f1b282d3740e"&gt;&lt;/div&gt;
+&lt;div id="ff51ca16-7857-4123-93ad-d1bdd5f9ba6b"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#d314707e-cdca-4421-9fb0-f1b282d3740e');
+var element = $('#ff51ca16-7857-4123-93ad-d1bdd5f9ba6b');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2643,4 +2643,20 @@ Sin más espero que les guste esta pequeña pieza de historia.&lt;br&gt;&lt;br&g
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Yo yo my first talk yo!&lt;/h1&gt;</content><category term="Projects"></category><category term="Python"></category><category term="Sharing"></category><category term="Knowledge"></category></entry></feed>
+</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-02-27:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the day I started working with Python I have probably consumed over a thousand tutorials. Normally they are more direct than the docs. If you are lucky enough you will find a tutorial explaining something really close to what you want to achieve. Then you just have to follow the steps, program along the way of the proffessor and then give it the tweaks you need. 
+My favorite, and someone I admire a lot is &lt;a href="https://www.youtube.com/watch?v=J1F32aVSYaU"&gt;&lt;strong&gt;sentdex&lt;/strong&gt;&lt;/a&gt;, he manages really complex topics, but has the ability to make them simple.&lt;/p&gt;
+&lt;p&gt;After moving to Argentina I went to my first &lt;a href="https://www.youtube.com/playlist?list=PLtwHCKHTTq_FCICEtCJkUmI0a4K-8N_IT"&gt;&lt;strong&gt;PyCon&lt;/strong&gt;&lt;/a&gt;. I enjoyed it, learned a ton about several libraries and had the time to introduce myself to many of the speakers. At that point I knew I wanted to give a talk and inspire others.
+Programming is something I love but sometimes it lacks a more social dimension. Here I might picture myself on others but programmers, or at least me, are most comfortable when listening to good music on their headphones and uninterrupted. I don't see this coding-shyness in every programmer, but it is true that geek culture is more introverted than, for example, marketing culture. Somewhere I can see the social dimension I miss is this Python Open Source mentality, sharing and making a better community and language. Hopefully soon we can go back to 3D events as I like to call them. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The 27th of february I presented my first Python &lt;a href="https://www.youtube.com/watch?v=gpCpPD3q20U"&gt;talk&lt;/a&gt;. Due to the pandemic it was streamed via youtube.
+I was facing several challenges. First of all I am an engineer, and I have not had the time to make too many expositions. I had to make sure listeners would understand me. Second of all I had to face youtube, assume that this video would stay close to for ever on that social network, this meant I needed to do something I would be proud of going forward. Lastly I had to decide &lt;strong&gt;what&lt;/strong&gt; to do. A talk or a tutorial?. Explaining little about the code in the former and more in the latter.&lt;/p&gt;
+&lt;p&gt;If you are in a similar situation this is what I recommend: &lt;br&gt;
+    1. Reherse the talk several times at home, I had precious help from my girlfriend. She was student-professor when she studied Medicine. She helped me make my "speech" much shorter, going straight to the point of each of the slides, cutting out every unnecessary word. &lt;br&gt; 
+    2. Set the objectives of the talk early, so that people and you are not be dissapointed with the result. &lt;br&gt;
+    3. Go for a talk instead of explaining the code. Code reading can get very boring very fast. 
+    If you think you have to explain the code &lt;strong&gt;Don't do live demos!&lt;/strong&gt;&lt;br&gt;
+    4. Have really nice interviewers as I did. Paloma ( in the background ) and Marta helped me a lot to prepare the talk, meeting a couple times to discuss the topic, dates etc, they made the flyer and spread the word about the talk. Marta also did one of the greatest presentations I have ever seen for which I am very greatful. &lt;br&gt;
+    &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe width="956" height="538" src="https://www.youtube.com/embed/gpCpPD3q20U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+This talk was an introduction to &lt;a href="https://holoviz.org/"&gt;&lt;strong&gt;Holoviz&lt;/strong&gt;&lt;/a&gt;. We just showcased its abilities pointing how simple it is to use.We made it simple for everyone to understand, even not programmers, I realized that a 20 minutes talk takes me at least a full week to prepare. &lt;br&gt; During the live show 10 people were watching, and since then another 100 have watched it. Someone told me I helped them tackle a problem they had and someone else told me I encouraged them to check out this library. I am excited about how well it went and want to take part in more talks, hopefully soon, they will be back in 3D.&lt;/p&gt;</content><category term="Projects"></category><category term="Python"></category><category term="Sharing"></category><category term="Pytalk"></category></entry></feed>
