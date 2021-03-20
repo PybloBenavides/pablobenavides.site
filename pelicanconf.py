@@ -70,13 +70,13 @@ jupyter - pelican
 MinimalXY Theme--------------------------------------------------------------------------------------------------------
 '''
 THEME = 'minimal_xy_theme'
-# AUTHOR_INTRO = u'Hello world! I’m Pablo Benavides'
-# AUTHOR_DESCRIPTION = u'Hello world! I’m John Doe. I use Python to make a more fluid traffic world'
-# AUTHOR_AVATAR = 'images/logo_transparente.png'
-# AUTHOR_WEB = 'https://pyblobenavides.github.io/pablobenavides.site/pages/portfolio.html'
+AUTHOR_INTRO = u'Hello world! I’m Pablo Benavides'
+AUTHOR_DESCRIPTION = u'Hello world! I’m Pablo Benavides. I use Python to solve transportation problems'
+AUTHOR_AVATAR = 'images/me_face.jpg'
+AUTHOR_WEB = 'https://pablobenavides.site'
 
-# SOCIAL = (('github', 'https://github.com/PybloBenavides'),
-#           ('linkedin','https://www.linkedin.com/in/pablo-benavides-0a5352116/'))
+SOCIAL = (('github', 'https://github.com/PybloBenavides'),
+          ('linkedin','https://www.linkedin.com/in/pablo-benavides-0a5352116/'))
 
 '''
 MinimalXY Theme--------------------------------------------------------------------------------------------------------
