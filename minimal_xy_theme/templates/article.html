@@ -16,7 +16,8 @@
           {% if article.tags %}
           <div>
             {% for tag in article.tags %}
-            <span class="w3-tag w3-light-grey w3-text-green w3-hover-green">
+            <span class="w3-tag w3-light-grey w3-text-teal w3-hover-indigo">
+              <!-- Cambiar aqui el color -->
               <a href="{{ SITEURL }}/{{ tag.url }}" title="All articles with {{ tag.name.title() }} tag">#{{ tag }}</a>
             </span>
             {% endfor %}
