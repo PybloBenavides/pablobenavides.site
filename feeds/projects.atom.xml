@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Projects</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/projects.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Desde Moctezuma hasta hoy</title><link href="https://pyblobenavides.github.io/pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides - Projects</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/projects.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Árbol familiar</title><link href="https://pyblobenavides.github.io/pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="8b72a0a6-1222-473d-94d0-c5037189be89"&gt;&lt;/div&gt;
+&lt;div id="fd63f294-515f-45dd-8ae8-641c7c37faa3"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#8b72a0a6-1222-473d-94d0-c5037189be89');
+var element = $('#fd63f294-515f-45dd-8ae8-641c7c37faa3');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#8b72a0a6-1222-473d-94d0-c5037189be89');
 
 
 
-&lt;div id="2beb36ca-ac7e-4dc8-9ca2-45884a5e6041"&gt;&lt;/div&gt;
+&lt;div id="d269abfb-5f18-45e7-ac88-678b530c597b"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#2beb36ca-ac7e-4dc8-9ca2-45884a5e6041');
+var element = $('#d269abfb-5f18-45e7-ac88-678b530c597b');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}

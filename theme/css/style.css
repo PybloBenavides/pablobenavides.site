@@ -34,6 +34,7 @@ h4 {
 
 a {
   text-decoration: none;
+  /* color: #2a3d5a; */
 }
 
 a img:hover {
@@ -338,4 +339,13 @@ ul.social li a:hover {
   #share a span {
     display: inline;
   }
+}
+
+/* #span.w3-tag {
+
+  color: pink;
+} */
+
+#footer-copyright {
+  background-color: #171715;
 }
