@@ -50,7 +50,17 @@
     <div class="w3-row w3-card w3-white">
       <header id="header">
         <!-- <a href="." id="header-logo" title="Home">PB</a> -->
-        <a href="." id="header-logo" title="Home"><img src="./images/logo_transparente.png" height=80px></img></a>
+        <a href="." id="header-logo" title="Home">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="./images/logo_transparente.png">
+            <source media="(min-width: 1px)" srcset="./images/icono_pb.png">
+            <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia" style="height:80px;width:auto">
+          </picture>
+          <!-- <img id='logo_image' src="./images/logo_transparente.png" height=80px></img> -->
+          <!-- <img src="./images/favicon.ico" srcset="./images/logo_transparente.png 500w," alt="yah", height=80px> -->
+        </a>
+        
+        
         <nav id="header-menu">
           <ul>
             <li><a href="./pages/about.html">About</a></li>
