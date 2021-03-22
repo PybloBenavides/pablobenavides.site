@@ -34,7 +34,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 DEFAULT_PAGINATION = 10
 DEFAULT_CATEGORY = 'BLOG'
-GOOGLE_ANALYTICS = 'G-DLMRN2NQ83'
+
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
