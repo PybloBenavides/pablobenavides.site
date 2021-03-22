@@ -109,7 +109,17 @@
     <div class="w3-row w3-card w3-white">
       <header id="header">
         <!-- <a href="{{ SITEURL }}" id="header-logo" title="Home">{{ AUTHOR[0] + AUTHOR[AUTHOR.index(" ")+1] }}</a> -->
-        <a href="{{ SITEURL }}" id="header-logo" title="Home"><img src="{{SITEURL}}/images/logo_transparente.png" height=80px></img></a>
+        <a href="{{ SITEURL }}" id="header-logo" title="Home">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="{{SITEURL}}/images/logo_transparente.png">
+            <source media="(min-width: 1px)" srcset="{{SITEURL}}/images/icono_pb.png">
+            <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia" style="height:80px;width:auto">
+          </picture>
+          <!-- <img id='logo_image' src="{{SITEURL}}/images/logo_transparente.png" height=80px></img> -->
+          <!-- <img src="{{SITEURL}}/images/favicon.ico" srcset="{{SITEURL}}/images/logo_transparente.png 500w," alt="yah", height=80px> -->
+        </a>
+        
+        
         <nav id="header-menu">
           <ul>
             {% if DISPLAY_PAGES_ON_MENU %}
