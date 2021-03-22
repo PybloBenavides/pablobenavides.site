@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="0cbc22c1-954b-4810-87d8-0bdfec10d8c8"&gt;&lt;/div&gt;
+&lt;div id="056d47d5-5c03-4570-babb-0d6f958457df"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#0cbc22c1-954b-4810-87d8-0bdfec10d8c8');
+var element = $('#056d47d5-5c03-4570-babb-0d6f958457df');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#0cbc22c1-954b-4810-87d8-0bdfec10d8c8');
 
 
 
-&lt;div id="7551a36e-f0ff-4955-bdc6-45e9d13f168b"&gt;&lt;/div&gt;
+&lt;div id="2c53c7a5-a80f-499b-af94-ef6a922ff179"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#7551a36e-f0ff-4955-bdc6-45e9d13f168b');
+var element = $('#2c53c7a5-a80f-499b-af94-ef6a922ff179');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2656,7 +2656,8 @@ I was facing several challenges. First of all I am an engineer, and I have not h
     If you think you have to explain the code &lt;strong&gt;Don't do live demos!&lt;/strong&gt;&lt;br&gt;
     4. Have really nice interviewers as I did. Paloma ( in the background ) and Marta helped me a lot to prepare the talk, meeting a couple times to discuss the topic, dates etc, they made the flyer and spread the word about the talk. Marta also did one of the greatest presentations I have ever seen for which I am very greatful. &lt;br&gt;
     &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class="iframe-container"&gt;
 &lt;iframe width="956" height="538" src="https://www.youtube.com/embed/gpCpPD3q20U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;
 This talk was an introduction to &lt;a href="https://holoviz.org/"&gt;&lt;strong&gt;Holoviz&lt;/strong&gt;&lt;/a&gt;. We just showcased its abilities pointing how simple it is to use.We made it simple for everyone to understand, even not programmers, I realized that a 20 minutes talk takes me at least a full week to prepare. &lt;br&gt; During the live show 10 people were watching, and since then another 100 have watched it. Someone told me I helped them tackle a problem they had and someone else told me I encouraged them to check out this library. I am excited about how well it went and want to take part in more talks, hopefully soon, they will be back in 3D.&lt;/p&gt;</content><category term="Projects"></category><category term="Python"></category><category term="Sharing"></category><category term="Pytalk"></category></entry></feed>
