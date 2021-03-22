@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="bef6344c-d072-499c-9fea-8e8369fcd8c9"&gt;&lt;/div&gt;
+&lt;div id="858474b2-7e06-4005-8fd9-0b5985f10e10"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#bef6344c-d072-499c-9fea-8e8369fcd8c9');
+var element = $('#858474b2-7e06-4005-8fd9-0b5985f10e10');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#bef6344c-d072-499c-9fea-8e8369fcd8c9');
 
 
 
-&lt;div id="2037be31-a85b-470d-ad97-0650e8a65e49"&gt;&lt;/div&gt;
+&lt;div id="a96c4dee-907f-419d-b6fe-ede2fc6ed511"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#2037be31-a85b-470d-ad97-0650e8a65e49');
+var element = $('#a96c4dee-907f-419d-b6fe-ede2fc6ed511');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
