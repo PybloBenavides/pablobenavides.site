@@ -25,8 +25,9 @@ If you are in a similar situation this is what I recommend: <br>
 	<br><br>
 
 
+<div class="iframe-container">
 <iframe width="956" height="538" src="https://www.youtube.com/embed/gpCpPD3q20U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 <br><br>
 This talk was an introduction to [**Holoviz**](https://holoviz.org/). We just showcased its abilities pointing how simple it is to use.We made it simple for everyone to understand, even not programmers, I realized that a 20 minutes talk takes me at least a full week to prepare. <br> During the live show 10 people were watching, and since then another 100 have watched it. Someone told me I helped them tackle a problem they had and someone else told me I encouraged them to check out this library. I am excited about how well it went and want to take part in more talks, hopefully soon, they will be back in 3D.
 
