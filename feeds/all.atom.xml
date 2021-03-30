@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides</title><link href="https://pyblobenavides.github.io/pablobenavides.site/" rel="alternate"></link><link href="https://pyblobenavides.github.io/pablobenavides.site/feeds/all.atom.xml" rel="self"></link><id>https://pyblobenavides.github.io/pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Árbol familiar</title><link href="https://pyblobenavides.github.io/pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-03-09:/pablobenavides.site/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pablo Benavides</title><link href="http://pablobenavides.site/" rel="alternate"></link><link href="http://pablobenavides.site/feeds/all.atom.xml" rel="self"></link><id>http://pablobenavides.site/</id><updated>2021-03-09T00:00:00+01:00</updated><entry><title>Árbol familiar</title><link href="http://pablobenavides.site/family-tree.html" rel="alternate"></link><published>2021-03-09T00:00:00+01:00</published><updated>2021-03-09T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pablobenavides.site,2021-03-09:/family-tree.html</id><summary type="html">&lt;p&gt;Para saber a donde vas debes saber de donde vienes.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1035,10 +1035,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="9eff8dad-27b9-4b13-8717-723ade2fc49b"&gt;&lt;/div&gt;
+&lt;div id="83c4d998-33f3-4fc5-9be4-b4caf32123e9"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#9eff8dad-27b9-4b13-8717-723ade2fc49b');
+var element = $('#83c4d998-33f3-4fc5-9be4-b4caf32123e9');
 
 (function(root) {
   function now() {
@@ -2173,10 +2173,10 @@ var element = $('#9eff8dad-27b9-4b13-8717-723ade2fc49b');
 
 
 
-&lt;div id="585066e7-f534-4474-b529-c3d731215a11"&gt;&lt;/div&gt;
+&lt;div id="40d6e027-fcee-4a61-a5a3-e44fc0e0ebe5"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#585066e7-f534-4474-b529-c3d731215a11');
+var element = $('#40d6e027-fcee-4a61-a5a3-e44fc0e0ebe5');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2643,7 +2643,7 @@ Sin más espero que les guste esta pequeña pieza de historia.&lt;br&gt;&lt;br&g
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category><category term="Graphs"></category></entry><entry><title>My first Python talk</title><link href="https://pyblobenavides.github.io/pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pyblobenavides.github.io,2021-02-27:/pablobenavides.site/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the day I started working with Python I have probably consumed over a thousand tutorials. Normally they are more direct than the docs. If you are lucky enough you will find a tutorial explaining something really close to what you want to achieve. Then you just have to follow the steps, program along the way of the proffessor and then give it the tweaks you need. 
+</content><category term="Projects"></category><category term="Family Tree"></category><category term="Moctezuma"></category><category term="Granada"></category><category term="Graphs"></category></entry><entry><title>My first Python talk</title><link href="http://pablobenavides.site/my-first-pytalk.html" rel="alternate"></link><published>2021-02-27T00:00:00+01:00</published><updated>2021-02-27T00:00:00+01:00</updated><author><name>Pablo Benavides</name></author><id>tag:pablobenavides.site,2021-02-27:/my-first-pytalk.html</id><summary type="html">&lt;p&gt;Last february I presented my first Python talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the day I started working with Python I have probably consumed over a thousand tutorials. Normally they are more direct than the docs. If you are lucky enough you will find a tutorial explaining something really close to what you want to achieve. Then you just have to follow the steps, program along the way of the proffessor and then give it the tweaks you need. 
 My favorite, and someone I admire a lot is &lt;a href="https://www.youtube.com/watch?v=J1F32aVSYaU"&gt;&lt;strong&gt;sentdex&lt;/strong&gt;&lt;/a&gt;, he manages really complex topics, but has the ability to make them simple.&lt;/p&gt;
 &lt;p&gt;After moving to Argentina I went to my first &lt;a href="https://www.youtube.com/playlist?list=PLtwHCKHTTq_FCICEtCJkUmI0a4K-8N_IT"&gt;&lt;strong&gt;PyCon&lt;/strong&gt;&lt;/a&gt;. I enjoyed it, learned a ton about several libraries and had the time to introduce myself to many of the speakers. At that point I knew I wanted to give a talk and inspire others.
 Programming is something I love but sometimes it lacks a more social dimension. Here I might picture myself on others but programmers, or at least me, are most comfortable when listening to good music on their headphones and uninterrupted. I don't see this coding-shyness in every programmer, but it is true that geek culture is more introverted than, for example, marketing culture. Somewhere I can see the social dimension I miss is this Python Open Source mentality, sharing and making a better community and language. Hopefully soon we can go back to 3D events as I like to call them. &lt;br&gt;&lt;/p&gt;
