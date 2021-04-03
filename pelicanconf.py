@@ -71,8 +71,8 @@ jupyter - pelican
 MinimalXY Theme--------------------------------------------------------------------------------------------------------
 '''
 THEME = 'minimal_xy_theme'
-AUTHOR_INTRO = u'Hello world! I’m Pablo Benavides'
-AUTHOR_DESCRIPTION = u'Hello world! I’m Pablo Benavides. I use Python to solve transportation problems'
+AUTHOR_DESCRIPTION = u'I’m Pablo Benavides.I use Python to solve transportation problems'
+AUTHOR_INTRO = AUTHOR_DESCRIPTION
 AUTHOR_AVATAR = 'images/me_face_round.png'
 AUTHOR_WEB = 'https://pablobenavides.site'
 
