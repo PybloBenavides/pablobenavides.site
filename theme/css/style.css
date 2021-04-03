@@ -341,18 +341,18 @@ ul.social li a:hover {
   #share a span {
     display: inline;
   }
-  div.input {
+  /* div.input {
     position:relative;
     display: inline-block;
     width:70%;
     height:100%;
-  }
-  div.output {
+  } */
+  /* div.output {
     position:relative;
     display: inline-block;
     width:90%;
     height:100%;
-  } 
+  }  */
 }
 
 
