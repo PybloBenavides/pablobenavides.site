@@ -3,7 +3,7 @@ Title: Résumé
 
 My name is **Pablo Benavides**, I am a Civil Engineer specialized in **Intelligent Transport Systems**.<br>
 I use **Python** to solve transport related problems.<br>
-I speak **Spanish, German and English** with proficency. I can also speak **SQL**.<br>
+I speak **Spanish, German and English** with proficency.<br>
 I have international experience, having studied in Germany, the USA and Spain and worked for several years in both Spain and Argentina.
 
 Here is my résumé.
