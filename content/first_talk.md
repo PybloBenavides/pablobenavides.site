@@ -18,7 +18,7 @@ I was facing several challenges. First of all I am an engineer, and I have not h
 
 If you are in a similar situation this is what I recommend: <br>
 	1. Reherse the talk several times at home, I had precious help from my girlfriend. She was student-professor when she studied Medicine. She helped me make my "speech" much shorter, going straight to the point of each of the slides, cutting out every unnecessary word. <br> 
-	2. Set the objectives of the talk early, so that people and you are not be dissapointed with the result. <br>
+	2. Set the objectives of the talk early, so that people know if they are in the right place. <br>
 	3. Go for a talk instead of explaining the code. Code reading can get very boring very fast. 
 	If you think you have to explain the code **Don't do live demos!**<br>
 	4. Have really nice interviewers as I did. Paloma ( in the background ) and Marta helped me a lot to prepare the talk, meeting a couple times to discuss the topic, dates etc, they made the flyer and spread the word about the talk. Marta also did one of the greatest presentations I have ever seen for which I am very greatful. <br>
@@ -29,7 +29,7 @@ If you are in a similar situation this is what I recommend: <br>
 <iframe width="956" height="538" src="https://www.youtube.com/embed/gpCpPD3q20U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br><br>
-This talk was an introduction to [**Holoviz**](https://holoviz.org/). We just showcased its abilities pointing how simple it is to use.We made it simple for everyone to understand, even not programmers, I realized that a 20 minutes talk takes me at least a full week to prepare. <br> During the live show 10 people were watching, and since then another 100 have watched it. Someone told me I helped them tackle a problem they had and someone else told me I encouraged them to check out this library. I am excited about how well it went and want to take part in more talks, hopefully soon, they will be back in 3D.
+This talk was an introduction to [**Holoviz**](https://holoviz.org/). I just showcased its abilities pointing how simple it is to use. The goal was to make it simple for everyone to understand, even not programmers. I realized that a 20 minutes talk takes me at least a full week to prepare. <br> During the live show 10 people were watching, and since then another 100 have watched it. Someone told me I helped them tackle a problem they had and someone else told me I encouraged them to check out this library. I am excited about how well it went and want to take part in more talks, hopefully soon, they will be back in 3D.
 
 
 
