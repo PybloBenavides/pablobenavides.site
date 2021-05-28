@@ -993,7 +993,7 @@ div.output_html {
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2&gt;Obtaining the fundamental diagram from pedestrian flow. &lt;br&gt;&lt;/h2&gt;
-&lt;p&gt;It's May of 2021, next month I will be returning to the transit modelling world. It is a great ocassion to remember some of the fundamentals of traffic. In order to do this I decided to go back to my beginnings and study some experiments carried on by &lt;a href="https://www.fz-juelich.de/ias/ias-7/EN/Home/home_node.html"&gt;Fochzentrum Jülich&lt;/a&gt;. Several experiments were carried out which aimed to help study how pedestrians move in close space. Close space such as corridors, corridors intersections, etc. The experiments consisted on making real people walk along corridors. Each person wore a special hat with a QR code, and there was a set of cameras above them which recorded their positions 25 times per second.  We will study &lt;a href="https://ped.fz-juelich.de/database/doku.php?id=corridor5"&gt;this&lt;/a&gt; experiment included in the project BaSiGo. 
+&lt;p&gt;This is the first of a series of posts to discuss agent base modelling and traffic modelling. In this ocassion we are going to remember some of the fundamentals of traffic. In order to do this I decided to study some experiments carried out by &lt;a href="https://www.fz-juelich.de/ias/ias-7/EN/Home/home_node.html"&gt;Fochzentrum Jülich&lt;/a&gt;. Several experiments were carried out which aimed to help study how pedestrians move in close space. Close space such as corridors, corridor intersections, etc. The experiments consisted on making real people (test subjects) walk along corridors. Each person wore a special hat with a QR code, and there was a set of cameras above them which recorded their positions 25 times per second.&lt;br&gt;
 &lt;img src="http://pablobenavides.site/images/corridor/basigo.gif" alt="BaSiGo Project"&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1003,7 +1003,7 @@ div.output_html {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Setup---Unidirectional-Corridor"&gt;Setup - Unidirectional Corridor&lt;a class="anchor-link" href="#Setup---Unidirectional-Corridor"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The setup of the experiment we will be analyzing is the following: There is a corridor left to right. The length of the corridor is 18 meters, we will be analyzing the 10 meters in the middle. In each run of the experiment the test subjects go the length of the corridor in one direction. &lt;img src="http://pablobenavides.site/images/corridor/corridor_explanation.jpg" alt="Unidirectional Corridor"&gt;&lt;/p&gt;
+&lt;h3 id="Setup---Unidirectional-Corridor"&gt;Setup - Unidirectional Corridor&lt;a class="anchor-link" href="#Setup---Unidirectional-Corridor"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We will study &lt;a href="https://ped.fz-juelich.de/database/doku.php?id=corridor5"&gt;this&lt;/a&gt; experiment included in the project BaSiGo. The setup of the experiment we will be analyzing is the following: There is a corridor left to right. The length of the corridor is 18 meters, we will be analyzing what happened in the 10 meters in the middle. In each run of the experiment the test subjects go the length of the corridor in one direction. &lt;img src="http://pablobenavides.site/images/corridor/corridor_explanation.jpg" alt="Unidirectional Corridor"&gt;&lt;/p&gt;
 &lt;p&gt;What changes in each of the experiments is the width of entrance and exit as we can see in the images below:&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1023,7 +1023,7 @@ div.output_html {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;At the beginning the entrance is small while the exit is wide, this allows people to flow freely. With each run of the experiment the width of the entrance is increased while the exit gets smaller, thus creating a bottleneck. 
+&lt;p&gt;At the beginning the entrance is small while the exit is wide, this allows people to flow freely. With each run of the experiment the width of the entrance is increased while the exit shrinks, thus creating a bottleneck. 
 In order to analyze this data we will use pandas and to interpret the result we will be using &lt;a href="https://holoviz.org/"&gt;Holoviz&lt;/a&gt;. I will not dive into the code as it is not the main goal. If you are curious you can find the repo &lt;a href="https://github.com/PybloBenavides/ped_analysis"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1033,13 +1033,13 @@ In order to analyze this data we will use pandas and to interpret the result we 
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;We will try to find the &lt;strong&gt;fundamental diagram of traffic flow&lt;/strong&gt;. It compares flow and density or flow times speed and density. Let's describe each of these variables:&lt;/p&gt;
+&lt;p&gt;We will try to find the &lt;strong&gt;fundamental diagram of traffic flow&lt;/strong&gt;. It compares flow and density also taking speed into account. Let's describe each of these variables:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Density&lt;/strong&gt;: The amount of people in the corridor divided by the area of the corridor at a given moment.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flow&lt;/strong&gt;: Amount of people that leave the corridor per second.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: The average speed of &lt;strong&gt;all&lt;/strong&gt; of the test subjects at a given moment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Density&lt;/strong&gt;: The amount of people in the corridor at a given moment divided by the area of the corridor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flow&lt;/strong&gt;: Amount of people that cross the exit of the corridor per second.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: The average speed of &lt;strong&gt;all of the test subjects in the corridor&lt;/strong&gt; at a given moment.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We will draw Density in the X axis and Flow in the Y axis while the color of the dots will be the mean speed of all the test subjects at a given moment.&lt;/p&gt;
+&lt;p&gt;We will draw Density in the X axis and Flow in the Y axis while the speed will be represented in the color of the dots.&lt;/p&gt;
 &lt;p&gt;Here we can see the fundamental diagram of the first run of the experiment, remember the entrance is 1 meter wide and the exit is 5 meters wide.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1072,10 +1072,10 @@ In order to analyze this data we will use pandas and to interpret the result we 
 
 
 
-&lt;div id="b0f49570-887b-44ed-951c-a4babbd0d8a6"&gt;&lt;/div&gt;
+&lt;div id="1c75ce3b-a99c-429e-b8ac-3ef027fa7953"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#b0f49570-887b-44ed-951c-a4babbd0d8a6');
+var element = $('#1c75ce3b-a99c-429e-b8ac-3ef027fa7953');
 
 (function(root) {
   function now() {
@@ -2254,10 +2254,10 @@ var element = $('#b0f49570-887b-44ed-951c-a4babbd0d8a6');
 
 
 
-&lt;div id="a0461f3b-03d2-4f44-9689-349246f0e4c6"&gt;&lt;/div&gt;
+&lt;div id="8999988b-502e-46ba-8604-ab3f1eb797ac"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#a0461f3b-03d2-4f44-9689-349246f0e4c6');
+var element = $('#8999988b-502e-46ba-8604-ab3f1eb797ac');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -2668,7 +2668,7 @@ if (root.Bokeh !== undefined) {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Analyzing this graph we can see that we have quite high speeds, always above 1.3 meters per second and that density and flow seem to have a direct relationship, the higher the density the higher the flow. We say we are in free flow. Pedestrians are not bothered by nothing and can flow freely.&lt;/p&gt;
+&lt;p&gt;Analyzing this graph we can see that we have quite high speeds, always above 1.3 meters per second and that density and flow seem to have a direct relationship, the higher the density the higher the flow. We say we are in free flow. Pedestrians are not bothered by anything and can flow freely.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2861,7 +2861,7 @@ if (root.Bokeh !== undefined) {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;We observe a greater quantity of red dots. We could say that when density surpasses 8 people per squeare meter there is a significant drop in speed ( It goes below 0.5 m/s ) and flow stops increasing or it probably even starts decreasing.&lt;br&gt;
+&lt;p&gt;We observe a greater quantity of red dots. We could say that when density surpasses 8 people per squeare meter there is a significant drop in speed ( It goes below 0.5 m/s ) and flow stops increasing or it even starts decreasing.&lt;br&gt;
 Take a look at run number 7's most crowded moment:&lt;/p&gt;
 
 &lt;/div&gt;
@@ -3049,7 +3049,8 @@ if (root.Bokeh !== undefined) {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;As the corridor gets more dense there is a greater flow out of it (The more people inside the more people that come out), this principle holds true for a while until the path goes over a tipping point, after which the corridor can get more crowded and dense but this will not result in a greater flow, on the contrary it creates a jam and flow starts decreasing as density increases. Looking at this graph we could say that the tipping point for pedestrians in a one way corridor is around 7 people per square meter. How is this useful? Well, insights like this are used by architects and engineers in the design of certain type of buildings, I am thinking here of train stations, stadiums, etc, where entrances and corridors must be safe for people to walk in. Avoiding bottlenecks and high densities can prevent negative user experiences and also accidents. This fundamental diagram is the base of traffic flow theory.&lt;/p&gt;
+&lt;p&gt;As the corridor gets more dense there is a greater flow out of it (The more people inside the more people that come out), this principle holds true for a while until the corridor goes over a tipping point, after which the corridor can get more crowded and dense but this will not result in a greater flow, on the contrary it creates a jam and flow starts decreasing as density increases. Looking at this graph we could say that the tipping point for pedestrians in a one way corridor is around 7 people per square meter. &lt;br&gt;
+How is this useful? Well, insights like this are used by architects and engineers in the design of certain type of buildings, I am thinking here of train stations, stadiums, etc, where entrances and corridors must be safe for people to walk in. Avoiding bottlenecks and high densities can prevent negative user experiences and also accidents. As we will see in future posts this fundamental diagram is the base of traffic flow theory.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -4130,10 +4131,10 @@ Espero que lo disfruten!&lt;/p&gt;
 
 
 
-&lt;div id="379401b5-7143-4fe8-96e6-eaecf4e3223a"&gt;&lt;/div&gt;
+&lt;div id="ed092460-bcc2-41a1-8e9e-e85a371ecf62"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#379401b5-7143-4fe8-96e6-eaecf4e3223a');
+var element = $('#ed092460-bcc2-41a1-8e9e-e85a371ecf62');
 
 (function(root) {
   function now() {
@@ -5268,10 +5269,10 @@ var element = $('#379401b5-7143-4fe8-96e6-eaecf4e3223a');
 
 
 
-&lt;div id="65d8df23-9cbe-414b-82c8-bbb96ff2b2b8"&gt;&lt;/div&gt;
+&lt;div id="539f32b0-e0ed-4841-9d30-bd82bb226c59"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#65d8df23-9cbe-414b-82c8-bbb96ff2b2b8');
+var element = $('#539f32b0-e0ed-4841-9d30-bd82bb226c59');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
