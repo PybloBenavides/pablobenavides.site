@@ -74,7 +74,7 @@ THEME = 'minimal_xy_theme'
 AUTHOR_DESCRIPTION = u'I’m Pablo Benavides.I use Python to solve transportation problems'
 AUTHOR_INTRO = AUTHOR_DESCRIPTION
 AUTHOR_AVATAR = 'images/me_face_round.png'
-AUTHOR_WEB = 'https://pyblobenavides.github.io'
+AUTHOR_WEB = 'https://pablobenavides.site'
 
 SOCIAL = (('github', 'https://github.com/PybloBenavides'),
           ('linkedin','https://www.linkedin.com/in/pablo-benavides-0a5352116/'))
