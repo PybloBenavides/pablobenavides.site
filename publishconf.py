@@ -10,7 +10,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'https://pyblobenavides.github.io/pablobenavides.site' #Hay que dejar esto asi y solo tocar el cname
+SITEURL = 'https://pyblobenavides.github.io' #/pablobenavides.site' #Hay que dejar esto asi y solo tocar el cname
 # SITEURL = 'http://pablobenavides.site'
 RELATIVE_URLS = True #ESto se queda asi tambien
 
