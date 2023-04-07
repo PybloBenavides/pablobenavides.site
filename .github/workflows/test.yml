@@ -1,23 +1,21 @@
-os: "linux"
+name: Deploy
 
-language: python
+on:
+  # Trigger the workflow on push on main branch,
+  push:
+    branches:
+      - main
 
-dist: "xenial"
-python: "3.7"
-
-install:
-  - pip install pipenv
-  - pipenv install
-
-script: pipenv run pelican content -s publishconf.py -t minimal_xy_theme
-
-deploy:
-  provider: pages
-  strategy: git
-  repo: PybloBenavides/pablobenavides.site
-  target_branch: online
-  local_dir: output
-  token: $GITHUB_TOKEN
-  edge: true
-  on:
-    branch: main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        submodules: 'true'
+    - uses: rehanhaider/pelican-to-github-pages@v1.0.3
+      env:
+        FLAG: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GH_PAGES_CNAME: ${{secrets.GH_PAGES_CNAME}}
+        SITEURL: ${{secrets.SITEURL}}
