@@ -1,0 +1,23 @@
+os: "linux"
+
+language: python
+
+dist: "xenial"
+python: "3.7"
+
+install:
+  - pip install pipenv
+  - pipenv install
+
+script: pipenv run pelican content -s publishconf.py -t minimal_xy_theme
+
+deploy:
+  provider: pages
+  strategy: git
+  repo: PybloBenavides/pablobenavides.site
+  target_branch: online
+  local_dir: output
+  token: $GITHUB_TOKEN
+  edge: true
+  on:
+    branch: main
