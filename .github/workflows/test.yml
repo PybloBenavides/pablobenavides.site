@@ -1,5 +1,4 @@
-
-- name: GitHub Pages Pelican Build Action
+name: GitHub Pages Pelican Build Action
 
 on:
   # Trigger the workflow on push or pull request,
